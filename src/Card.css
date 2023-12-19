@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.robo-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px;
+}
+.card-body:hover{
+    padding: 5px;
+}
+.card-body{
+    background-color: rgba(17, 114, 225, 0.696);
+    height: 300px;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height: 230px;
+}
+.card-content{
+text-align: center;
+}
+.input-field{
+    background-color:  rgba(17, 114, 225, 0.696);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.input-field h1{
+    font-size: 70px;
+}
+.input-field input{
+    width: 300px;
+    padding: 15px;
+    border: none;
+}
